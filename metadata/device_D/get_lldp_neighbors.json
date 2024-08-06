@@ -1,0 +1,11 @@
+[
+    {
+        "name": "GigabitEthernet0/0/1",
+        "status": "Up",
+        "vlan": null,
+        "lldp_neighbor": {
+            "connected_device": "Switch_A",
+            "connected_interface": "GigabitEthernet1/0/1"
+        }
+    }
+]

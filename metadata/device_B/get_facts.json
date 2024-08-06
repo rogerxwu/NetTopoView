@@ -1,0 +1,6 @@
+{
+    "hostname": "Switch_B",
+    "model": "Cisco Catalyst 9200",
+    "os_version": "IOS-XE 17.2.1",
+    "management_ip": "192.168.1.2"
+}

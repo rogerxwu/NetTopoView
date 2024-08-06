@@ -1,0 +1,6 @@
+{
+    "hostname": "Switch_C",
+    "model": "Cisco Catalyst 2960",
+    "os_version": "IOS 15.2(6)E2",
+    "management_ip": "192.168.1.3"
+}

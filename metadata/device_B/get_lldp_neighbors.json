@@ -1,0 +1,29 @@
+[
+    {
+        "name": "GigabitEthernet1/0/1",
+        "status": "Up",
+        "vlan": "Trunk",
+        "lldp_neighbor": {
+            "connected_device": "Switch_A",
+            "connected_interface": "GigabitEthernet1/0/3"
+        }
+    },
+    {
+        "name": "GigabitEthernet1/0/2",
+        "status": "Up",
+        "vlan": "30",
+        "lldp_neighbor": {
+            "connected_device": "Switch_C",
+            "connected_interface": "GigabitEthernet1/0/1"
+        }
+    },
+    {
+        "name": "GigabitEthernet1/0/4",
+        "status": "Up",
+        "vlan": "20",
+        "lldp_neighbor": {
+            "connected_device": "Firewall_A",
+            "connected_interface": "Ethernet1/2"
+        }
+    }
+]

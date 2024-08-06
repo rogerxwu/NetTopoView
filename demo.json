@@ -1,0 +1,129 @@
+{
+    "nodes": [
+        {
+            "data": {
+                "id": "Switch_A",
+                "label": "Switch_A"
+            }
+        },
+        {
+            "data": {
+                "id": "Switch_B",
+                "label": "Switch_B"
+            }
+        },
+        {
+            "data": {
+                "id": "Switch_C",
+                "label": "Switch_C"
+            }
+        },
+        {
+            "data": {
+                "id": "Router_A",
+                "label": "Router_A"
+            }
+        },
+        {
+            "data": {
+                "id": "Router_B",
+                "label": "Router_B"
+            }
+        },
+        {
+            "data": {
+                "id": "Firewall_A",
+                "label": "Firewall_A"
+            }
+        },
+        {
+            "data": {
+                "id": "AP_A",
+                "label": "AP_A"
+            }
+        },
+        {
+            "data": {
+                "id": "AP_B",
+                "label": "AP_B"
+            }
+        },
+        {
+            "data": {
+                "id": "Server_A",
+                "label": "Server_A"
+            }
+        },
+        {
+            "data": {
+                "id": "Server_B",
+                "label": "Server_B"
+            }
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "source": "Switch_A",
+                "target": "Router_A",
+                "label": "GigabitEthernet1/0/1 ↔ GigabitEthernet0/0/1"
+            }
+        },
+        {
+            "data": {
+                "source": "Switch_A",
+                "target": "Switch_B",
+                "label": "GigabitEthernet1/0/3 ↔ GigabitEthernet1/0/1"
+            }
+        },
+        {
+            "data": {
+                "source": "Switch_B",
+                "target": "Switch_C",
+                "label": "GigabitEthernet1/0/2 ↔ GigabitEthernet1/0/1"
+            }
+        },
+        {
+            "data": {
+                "source": "Switch_B",
+                "target": "Firewall_A",
+                "label": "GigabitEthernet1/0/4 ↔ Ethernet1/2"
+            }
+        },
+        {
+            "data": {
+                "source": "Switch_C",
+                "target": "Router_B",
+                "label": "GigabitEthernet1/0/2 ↔ GigabitEthernet0/0/1"
+            }
+        },
+        {
+            "data": {
+                "source": "Switch_C",
+                "target": "AP_A",
+                "label": "GigabitEthernet1/0/3 ↔ GigabitEthernet0"
+            }
+        },
+        {
+            "data": {
+                "source": "Switch_B",
+                "target": "AP_B",
+                "label": "GigabitEthernet1/0/4 ↔ GigabitEthernet0"
+            }
+        },
+        {
+            "data": {
+                "source": "Switch_A",
+                "target": "Server_A",
+                "label": "GigabitEthernet1/0/2 ↔ Ethernet1"
+            }
+        },
+        {
+            "data": {
+                "source": "Switch_C",
+                "target": "Server_B",
+                "label": "GigabitEthernet1/0/1 ↔ Ethernet1"
+            }
+        }
+    ]
+}
